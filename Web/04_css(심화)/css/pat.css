@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 900px;
+  margin: 0 auto;
+}
+
+#menu {
+  width: 200px;
+  float: left;
+}
+
+#section {
+  width: 700px;
+  float: right;
+}
+
+@media (max-width: 800px) {
+  #menu {
+    float: none;
+  }
+  #section {
+    float: none;
+  }
+}

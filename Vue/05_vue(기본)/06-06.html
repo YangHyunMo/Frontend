@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>06-06</title>
+    <style>
+      .buttonColor {
+        background-color: aqua;
+        color: black;
+      }
+      .buttonLayout {
+        text-align: center;
+        width: 120px;
+      }
+      .staticBorder {
+        border: 1px dashed khaki;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <button class="staticBorder" :class="[myColor, myLayout]">
+        테스트 버튼
+      </button>
+    </div>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script type="text/javascript">
+      const { createApp } = Vue;
+
+      let vm = createApp({
+        name: 'App',
+        data() {
+          return {
+            myColor: 'buttonColor',
+            myLayout: 'buttonLayout',
+          };
+        },
+      });
+      vm.mount('#app');
+    </script>
+  </body>
+</html>
