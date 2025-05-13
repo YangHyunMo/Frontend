@@ -1,7 +1,5 @@
 # Frontend
 
-"""
-
 - complete: ☑ uncomplete: ☐
 
 ## 01 웹 표준 HTML/CSS/JavaScript
@@ -33,5 +31,3 @@
 | 10 Axios                |  ☑   |  ☑   |
 | 11 라우트와 Axios 연동  |  ☑   |  ☑   |
 | 12 Pinia 상태 관리      |  ☑   |  ☑   |
-
-"""
